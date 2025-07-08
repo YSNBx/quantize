@@ -1,0 +1,28 @@
+* Glossary
+
+** Qubit
+	 A quantum bit. Unlike a classical bit, a qubit can be in a superposition of |0⟩ and |1⟩.
+	 Mathematically, it's a normalized 2D complex vector:
+	|ψ⟩ = α|0⟩ + β|1⟩ where |α|² + |β|² = 1
+
+** Complex Number
+	 A number with a real and imaginary part: a + bi.
+	 Used in quantum mechanics to represent amplitudes of states.
+
+** Superposition
+	 The property that allows a qubit to be in a combination of both |0⟩ and |1⟩ at once.
+
+** Normalization
+	 A requirement for all valid qubit states: total probability must be 1.
+	 This means: |α|² + |β|² = 1
+
+** Bra-Ket Notation
+	 Dirac notation to describe quantum states.
+	 - |ψ⟩: a "ket", represents a column vector (quantum state)
+	 - ⟨ψ|: a "bra", the conjugate transpose of a ket (used for inner products)
+
+** State Vector
+	 A complex-valued vector that describes the full quantum state of a system.
+
+** Measurement
+	 The process of collapsing a qubit’s state to either |0⟩ or |1⟩, with probabilities given by |α|² and |β|².

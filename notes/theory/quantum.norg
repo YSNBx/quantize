@@ -1,0 +1,27 @@
+* Quantum Theory Primer
+
+** Qubits
+	 A qubit is a two-dimensional complex vector:
+
+	|ψ⟩ = α|0⟩ + β|1⟩
+	with |α|² + |β|² = 1
+
+** Basis States
+	 |0⟩ = [1, 0]
+	 |1⟩ = [0, 1]
+
+** Superposition
+	 Any normalized linear combination of |0⟩ and |1⟩ is a valid state.
+
+** Measurement
+	 Measuring a qubit in state |ψ⟩ collapses it to |0⟩ with probability |α|², and to |1⟩ with |β|².
+
+** Gates
+	 Quantum gates are unitary matrices that transform states.
+
+	 Examples:
+	 - X (NOT): flips |0⟩ ↔ |1⟩
+	 - H (Hadamard): puts qubit into even superposition
+
+** Bra-Ket Notation
+	 |ψ⟩ is a "ket", ⟨ψ| is a "bra". Inner product: ⟨ψ|ϕ⟩

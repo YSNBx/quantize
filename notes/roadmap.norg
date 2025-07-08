@@ -1,0 +1,63 @@
+* Roadmap
+	- ( ) *Core Quantum Simulator*
+	-- ( ) /Phase Q1: Qubit Foundations/
+	--- (x) Define QubitState (complex vector of 2 values)
+	--- (x) Implement normalization check
+	--- (x) Implement display/logging method (bra-ket style)
+	--- (x) Add basic state creation helpers (|0⟩, |1⟩, custom)
+
+	-- ( ) /Phase Q2: Single-Qubit Gates/
+	--- ( ) Define matrix types using ndarray or similar
+	--- ( ) Implement Hadamard (H), Pauli-X, Y, Z, Identity
+	--- ( ) Implement gate application logic: matrix * vector
+	--- ( ) Add tests to validate gate behavior (e.g. H|0⟩ = + state)
+
+	-- ( ) /Phase Q3: Multi-Qubit System/
+	--- ( ) Represent multi-qubit state as 2ⁿ vector
+	--- ( ) Tensor product logic for combining qubits
+	--- ( ) Gate application on specific qubit in system
+	--- ( ) Multi-gate sequence execution
+
+	-- ( ) /Phase Q4: Entanglement & Controlled Gates/
+	--- ( ) Implement CNOT, CZ
+	--- ( ) Create Bell states from |00⟩
+	--- ( ) Verify entanglement using measurement correlation
+
+	-- ( ) /Phase Q5: Measurement Logic/
+	--- ( ) Add measurement operation: probability sampling
+	--- ( ) Collapse state on measurement
+	--- ( ) Support multiple runs and result histograms
+
+	-- ( ) /Phase Q6: Circuit DSL/
+	--- ( ) Simple DSL to define circuits (e.g., text or macro form)
+	--- ( ) Parser for gate sequences and qubit targets
+	--- ( ) CLI execution of circuits and print results
+
+	-- ( ) /Phase Q7: Visual Debugging + Simulation Output/
+	--- ( ) CLI visualization of qubit state vector
+	--- ( ) Optional: ASCII or pixel output for circuit flow
+	--- ( ) Optional: Graphviz or SVG render of circuits
+
+	- ( ) *Advanced Topics*
+	-- ( ) /Phase A1: Noise & Decoherence/
+	--- ( ) Add noise models: bit flip, phase flip
+	--- ( ) Simulate error rates and fidelity
+
+	-- ( ) /Phase A2: Mixed States & Density Matrices/
+	--- ( ) Represent density matrices
+	--- ( ) Support partial trace and entanglement entropy
+
+	-- ( ) /Phase A3: Quantum Fourier Transform/
+	--- ( ) Implement QFT for n qubits
+	--- ( ) Visualize transformation on input state
+	--- ( ) Apply to simple period-finding problem
+
+	-- ( ) /Phase A4: Quantum Algorithms (Optional)/
+	--- ( ) Grover’s algorithm
+	--- ( ) Deutsch-Jozsa
+	--- ( ) QFT-based factoring (Shor-style, no actual factoring yet)
+
+	- ( ) *Theory Integration*
+	-- ( ) Cross-reference with quantum.norg, qft.norg, particles.norg
+	-- ( ) Document mismatches between classical simulation and QM theory
+	-- ( ) Maintain glossary of concepts and notations
